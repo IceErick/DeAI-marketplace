@@ -1,0 +1,23 @@
+# Foundry
+out/
+cache/
+broadcast/
+lib/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Research artifacts
+benchmarks/results/*.csv
+benchmarks/results/*.png
+examples/artifacts/
+
+# Local chain / deploy state
+deployments.local.json
+
+# OS
+.DS_Store
