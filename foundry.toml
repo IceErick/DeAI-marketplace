@@ -1,0 +1,16 @@
+# Foundry configuration — https://book.getfoundry.sh/reference/config/
+[profile.default]
+src = "contracts"
+test = "test"
+script = "script"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.28"
+optimizer = true
+optimizer_runs = 200
+# Emit gas reports for our contracts — powers the "cost & performance" research angle.
+gas_reports = ["ModelRegistry", "Licensing", "UsageLog"]
+
+[fmt]
+line_length = 110
+tab_width = 4
